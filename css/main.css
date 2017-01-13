@@ -58,23 +58,24 @@ p {
 
 @media only screen and (min-width: 38em) {
 
-  html {
-    line-height: 1.4;
-    font-size: 110%;
-  }
+    html {
+      line-height: 1.4;
+      font-size: 110%;
+    }
 
-  .image {
-    width: 48%;
-    max-width: 25em;
-    vertical-align: middle;
-    display: inline-block;
-    position: absolute;
-    top: 3rem;
-  }
+    .image {
+      width: 48%;
+      max-width: 25em;
+      vertical-align: middle;
+      display: inline-block;
+      position: absolute;
+      top: 3rem;
+    }
 
-  .container {
-    padding-right: 18rem;
-    padding-top: 1rem;
+    .container {
+      padding-right: 18rem;
+      padding-top: 1rem;
+    }
   }
 
   @media only screen and (min-width: 60em) {
@@ -110,5 +111,27 @@ p {
     .container {
       margin-bottom: 3em;
     }
-
+  }
   @media only screen and (min-width: 90em) {
+
+    html {
+      font-size: 130%;
+      line-height: 1.5;
+    }
+
+    .image {
+      width: 68%;
+      max-width: 25em;
+      vertical-align: middle;
+      display: inline-block;
+      position: absolute;
+      top: .5rem;
+      right: .5rem;
+    }
+
+    .container {
+      padding-left: 10rem;
+      padding-right: 40rem;
+    }
+  }
+}
