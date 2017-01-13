@@ -58,80 +58,83 @@ p {
 
 @media only screen and (min-width: 38em) {
 
-    html {
-      line-height: 1.4;
-      font-size: 110%;
-    }
-
-    .image {
-      width: 48%;
-      max-width: 25em;
-      vertical-align: middle;
-      display: inline-block;
-      position: absolute;
-      top: 3rem;
-    }
-
-    .container {
-      padding-right: 18rem;
-      padding-top: 1rem;
-    }
+  html {
+    line-height: 1.4;
+    font-size: 110%;
   }
 
-  @media only screen and (min-width: 60em) {
-
-    html {
-      font-size: 120%;
-      line-height: 1.5;
-    }
-
-    .image {
-      width: 68%;
-      max-width: 25em;
-      vertical-align: middle;
-      display: inline-block;
-      position: absolute;
-      top: .5rem;
-      right: .5rem;
-    }
-
-    .container {
-      padding-right: 27rem;
-      padding-top: 3rem;
-    }
-
-    .btn{
-      padding: 0.73em;
-    }
-
-    p {
-      margin-bottom: 2em;
-    }
-
-    .container {
-      margin-bottom: 3em;
-    }
+  .image {
+    width: 48%;
+    max-width: 25em;
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+    top: 3rem;
   }
-  @media only screen and (min-width: 90em) {
 
-    html {
-      font-size: 130%;
-      line-height: 1.5;
-    }
+  .container {
+    padding-right: 18rem;
+    padding-top: 1rem;
+  }
 
-    .image {
-      width: 68%;
-      max-width: 25em;
-      vertical-align: middle;
-      display: inline-block;
-      position: absolute;
-      top: .5rem;
-      right: .5rem;
-    }
 
-    .container {
-      padding-left: 10rem;
-      padding-right: 40rem;
-    }
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .image {
+    width: 68%;
+    max-width: 25em;
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+  }
+
+  .container {
+    padding-right: 27rem;
+    padding-top: 3rem;
+  }
+
+  .btn{
+    padding: 0.73em;
+  }
+
+  .btn:hover {
+    background-color: lightgrey;
+  }
+
+  p {
+    margin-bottom: 2em;
+  }
+
+  .container {
+    margin-bottom: 3em;
+  }
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
+  .image {
+    width: 68%;
+    max-width: 25em;
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+  }
+
+  .container {
+    padding-left: 10rem;
+    padding-right: 40rem;
   }
 }
