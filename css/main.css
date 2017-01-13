@@ -42,11 +42,11 @@ img {
   position: relative;
 }
 
-.btn {
+a {
   border-radius: 4px;
-  background-color: grey;
+  background-color: #555;
   color: white;
-  padding: 0.5em;
+  padding: .5em;
   text-decoration: none;
 }
 
@@ -77,6 +77,7 @@ p {
     padding-top: 1rem;
   }
 
+}
 
 @media only screen and (min-width: 60em) {
 
@@ -98,10 +99,11 @@ p {
   .container {
     padding-right: 27rem;
     padding-top: 3rem;
+    margin-bottom: 3em;
   }
 
-  .btn{
-    padding: 0.73em;
+  .btn {
+    padding: .73em;
   }
 
   .btn:hover {
@@ -112,9 +114,7 @@ p {
     margin-bottom: 2em;
   }
 
-  .container {
-    margin-bottom: 3em;
-  }
+}
 
 @media only screen and (min-width: 90em) {
 
@@ -126,7 +126,6 @@ p {
   .image {
     width: 68%;
     max-width: 25em;
-    vertical-align: middle;
     display: inline-block;
     position: absolute;
     top: .5rem;
@@ -137,4 +136,5 @@ p {
     padding-left: 10rem;
     padding-right: 40rem;
   }
+
 }
