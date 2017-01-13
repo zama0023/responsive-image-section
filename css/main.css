@@ -36,6 +36,13 @@ body {
   display: block;
 }
 
+.btn {
+  border-radius: 4px;
+  background-color: #333;
+  color: white;
+  padding: 0.5em;
+}
+
 @media only screen and (min-width: 38em) {
 
   html {
